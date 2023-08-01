@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+:root {
+  --font-family: 'Poppins', sans-serif;
+  --normal-font: 400;
+  --bolder-font: 900;
+  --bold-font: 700;
+  --font-size: 1.4rem;
+  --nav-text-color: #00AEEF;
+  --bg-color: #FFFFFF;
+  --primary-color: #00AEEF;
+  --secondary-color: #F9D423;
+  --box-shadow: 0 3px 5px rgba(0, 0, 0, 0.2);
+  --bottom-margin: 0.5rem;
+  --bottom-margin-2: 1rem;
+  --line-height: 1.7rem;
+  --text-color: #444444;
+  --transition: 0.3s;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  font-family: var(--font-family);
+  background-color: #21325E;
+  color: var(--text-color);
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.container img {
+  max-width: 100%;
+  max-height: 80vh;
+  object-fit: contain;
+  margin-left: 25px;
+  margin-top: 12.5px;
+}
+
+.spacer {
+  height: var(--bottom-margin);
+}
+
+.button.start {
+  margin-top: var(--bottom-margin);
+  background-color: var(--primary-color);
+  color: #fff;
+  text-decoration: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  border: 1px solid var(--text-color);
+  box-shadow: var(--box-shadow);
+  transition: border 0.3s, box-shadow 0.3s;
+}
+
+.button.start:hover {
+  border: 2px solid var(--secondary-color);
+  box-shadow: 2px 6px 20px var(--secondary-color);
+}

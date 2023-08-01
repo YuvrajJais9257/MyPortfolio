@@ -1,0 +1,30 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+     background-color: #475496;
+  }
+  
+  .thank-you-container {
+    margin-top: 50px;
+  }
+  
+  .thank-you-message {
+    font-size: 1.5rem;
+    font-weight: 700;
+    margin-bottom: 20px;
+    color: #fff000;
+  }
+
+  p{
+    color: #ffffff;
+    font-size: 1.2rem;
+    font-weight: 500;
+  }
+  
+  .thank-you-image {
+    max-width: 500px;
+    margin: 0 auto;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+  }
+  
